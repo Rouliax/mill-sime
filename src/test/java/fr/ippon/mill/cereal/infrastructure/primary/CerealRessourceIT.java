@@ -41,9 +41,8 @@ class CerealRessourceIT {
                         .characterEncoding(StandardCharsets.UTF_8)
                         .content("""
                                 {
-                                  "cereal": "WHEAT",
-                                  "farmerId": "a046b054-1eae-451d-afa1-8b3202f1902a",
-                                  "harvestDay": "2022-11-21",
+                                  "cerealId": "a046b054-1eae-451d-afa1-8b3202f1902a",
+                                  "depositDay": "2022-11-21",
                                   "quantity": 7.23
                                 }
                                 """))
